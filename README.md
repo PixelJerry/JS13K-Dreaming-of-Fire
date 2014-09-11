@@ -3,8 +3,8 @@ JS13K-Dreaming-of-Fire
 
 Game entry for the [JS13K Game challenge](http://js13kgames.com/)
 
-# I DREAM OF FIRE #
-I Dream of Fire is a game in wich the player's objective is to burn down the city, wipe out the population and cause as much destruction as possible.
+# Dreaming of Fire #
+Dreaming of Fire is a game in which the player's objective is to burn down the city, wipe out the population and cause as much destruction as possible.
 This is done by upgrading the sentient flame's influence over his followers.
 
 The theme was the elements (earth, fire, air and water) and we decided to focus on fire.
