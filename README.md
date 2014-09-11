@@ -24,8 +24,8 @@ Notes here
 #Screenshots#
 ![Dreaming of Fire Menu](http://gaming.pixelreactor.co.za/dreaming_of_fire/screenshots/menu.jpg "Dreaming of Fire Menu")
 
-![Dreaming of Fire New Game](http://pixelreactor.co.za/radius-raid/images/newGame.jpg "Dreaming of Fire New Game")
+![Dreaming of Fire New Game](http://gaming.pixelreactor.co.za/dreaming_of_fire/screenshots/newGame.jpg "Dreaming of Fire New Game")
 
-![Dreaming of Fire Burning Down](http://pixelreactor.co.za/radius-raid/images/onFire_02.jpg "Dreaming of Fire Burning Down")
+![Dreaming of Fire Burning Down](http://gaming.pixelreactor.co.za/dreaming_of_fire/screenshots/onFire_02.jpg "Dreaming of Fire Burning Down")
 
-![Dreaming of Fire End Screen](http://pixelreactor.co.za/radius-raid/images/victoryScreen.jpg "Dreaming of Fire End Screen")
+![Dreaming of Fire End Screen](http://gaming.pixelreactor.co.za/dreaming_of_fire/screenshots/victoryScreen.jpg "Dreaming of Fire End Screen")
