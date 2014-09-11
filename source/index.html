@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dreaming of Fire</title>
+        <link rel="shortcut icon" id="favicon" />
+
+        <style>
+            body {
+                padding: 0px;
+                margin: 0px;
+                background: rgb(128,128,128);
+            }
+            #GameHere {
+                background-color: rgb(170,170,170);
+                margin-left: auto;
+                margin-right: auto;
+
+                -webkit-user-select: none; /* Chrome/Safari */        
+                -moz-user-select: none; /* Firefox */
+                -ms-user-select: none; /* IE10+ */
+            }
+        </style>
+    </head>
+    <body>
+        <div id="GameHere">
+        </div>
+
+        <script src="src/Utilities.js"></script>
+        <script src="src/StartMenu.js"></script>
+        <script src="src/Hexagon.js"></script>
+        <script src="src/Tile.js"></script>
+        <script src="src/District.js"></script>
+        <script src="src/HexagonalGridSystem.js"></script>
+        <script src="src/GenerateMap.js"></script>
+        <script src="src/GameMap.js"></script>
+        <script src="src/MapNavigation.js"></script>
+        <script src="src/Input.js"></script>
+        <script src="src/Fire.js"></script>
+        <script src="src/Follower.js"></script>
+        <script src="src/CityLevel.js"></script>
+        <script src="src/UserInterface.js"></script>
+        <script src="src/FireTech.js"></script>
+        <script src="src/Motion.js"></script>
+        <script src="src/Game.js"></script>
+        <script src="src/GameLoop.js"></script>
+        <script>
+            var MainGame = new Game("GameHere");
+            MainGame.addState("mainMenu", StartMenu);
+            MainGame.addState("city", CityLevel);
+            MainGame.startState("mainMenu");
+        </script>
+    </body>
+</html>
