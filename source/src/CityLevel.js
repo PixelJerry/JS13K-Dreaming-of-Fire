@@ -131,7 +131,8 @@ var CityLevel = {
         this.placedFirstFollower = false;
 
         this.firstFollowerMoved = false;
-
+        this.firstFollowerOverRiver = false;
+        
         GameMap.clearMap();
 
         FireTech.deleteMenu();
@@ -341,6 +342,11 @@ var CityLevel = {
                     else
                     {
                         moveToIndex = GameMap.indexOfFirstBottomDistrict - 1;
+                    }
+                    if (!this.firstFollowerOverRiver)
+                    {
+                        UI.displayEvent("A " + followerClass + " has crossed the river!");
+                        this.firstFollowerOverRiver = true;
                     }
                 }
                 else

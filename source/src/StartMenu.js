@@ -54,12 +54,6 @@ var StartMenu = {
 		ctx.fillText("Janke van Jaarsveld - Game Design",245,535);
 
 		// Heading
-		// ctx.fillStyle = "rgb(20,20,20)";
-		// ctx.font = "bold 60pt Arial";
-		// ctx.fillText("Dreaming of",245,90);
-		// ctx.font = "bold 90pt Arial";
-		// ctx.fillText("FIRE",245,215);
-
 		ctx.fillStyle = "rgb(255,158,62)";
 		ctx.shadowColor = "rgb(18,13,3)";
 		ctx.shadowOffsetX = 0;
